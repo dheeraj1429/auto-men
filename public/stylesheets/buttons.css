@@ -1,0 +1,26 @@
+.know-more-button {
+    padding: 0.8rem 2rem;
+    border-radius: 30px;
+    background-color: var(--light-yellow);
+    color: var(--main-cl);
+    border: none;
+}
+.book-a-pit {
+    padding: 1rem 3rem;
+    background-color: var(--light-yellow);
+    color: var(--main-cl);
+    border: none;
+}
+.submit_button {
+    padding: 1rem 3rem;
+    border: none;
+    background-color: var(--light-yellow);
+    color: var(--main-cl);
+}
+.request_button {
+    background-color: var(--smooth-gray-cl);
+    width: 100%;
+    padding: 1.5rem;
+    color: var(--main-cl);
+    border: none;
+}

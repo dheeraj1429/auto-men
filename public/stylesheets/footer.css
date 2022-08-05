@@ -1,0 +1,73 @@
+footer {
+    background-color: var(--smooth-light-white-cl);
+}
+
+footer .footer-heading {
+    font-weight: 600;
+    font-size: 30px;
+    color: var(--light-yellow);
+}
+.email-div {
+    border: 1px solid #e2e2e2;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background-color: var(--main-cl);
+}
+.email-div input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    background-color: transparent;
+}
+.email-div input::placeholder {
+    font-weight: 300;
+}
+.email-div .mail-icon {
+    width: 150px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .footer-icon-div {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--light-yellow);
+    border-radius: 50%;
+    background-color: var(--main-cl);
+}
+footer .footer-icon-div i {
+    font-size: 20px;
+    color: var(--light-yellow);
+}
+footer hr {
+    color: #bbbaba;
+}
+footer p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: var(--sm-gray);
+}
+footer ul li {
+    list-style: none;
+}
+footer .heading {
+    font-size: 30px !important;
+}
+footer ul li {
+    margin: 0.5rem;
+}
+footer ul {
+    padding: 0;
+}
+footer .read-more {
+    color: var(--light-yellow) !important;
+}

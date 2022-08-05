@@ -1,0 +1,207 @@
+/* banner section */
+.banner-section {
+    padding: 80px 0;
+}
+
+.banner-section h1 {
+    font-size: 65px;
+    line-height: 90px;
+    color: var(--sm-gray);
+    font-family: ridley-bold;
+}
+
+.banner-section h1 span {
+    color: var(--light-yellow);
+}
+
+.ling-div {
+    height: 10px;
+}
+
+.line {
+    height: 100%;
+    background-color: var(--light-yellow);
+    width: 30%;
+    float: right;
+}
+
+.banner-section p {
+    font-size: 20px;
+    line-height: 35px;
+}
+/* banner section */
+
+/* brand section */
+.brand h1 {
+    font-size: 30px;
+}
+.sm-line {
+    max-width: 60%;
+    height: 7px;
+    float: center !important;
+    margin: auto;
+}
+.sm-line .line {
+    width: 15%;
+    float: none;
+    margin: auto;
+}
+.brand-icons {
+    width: 100%;
+    padding: 1rem;
+}
+
+.img-cover_div {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* brand section */
+
+/* How does it work */
+.work-inner-div {
+    background: #ffffff;
+    border: 1px solid #f1f3f2;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-inner-div .icon {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-white-cl);
+    border-radius: 50%;
+    margin: auto;
+}
+.work-inner-div p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--smooth-gray-cl);
+}
+.work-inner-div .icon-active {
+    background-color: var(--main-cl);
+}
+.active-tab {
+    background-color: var(--light-yellow);
+}
+.active-tab p {
+    color: var(--main-cl);
+}
+/* How does it work */
+
+/* we fouce */
+.bold-heading {
+    font-family: ridley-regular;
+    font-weight: 600;
+    color: var(--smooth-gray-cl);
+}
+.we_fouce p {
+    font-size: 20px;
+    line-height: 35px;
+}
+.we_fouce .heading {
+    font-size: 40px;
+    color: var(--light-yellow);
+    font-family: ridley-regular;
+    font-weight: 600;
+}
+.line-right .line {
+    float: left;
+    height: 6px;
+}
+.we_fouce ul li {
+    margin-top: 1rem;
+}
+.we_fouce ul li a {
+    color: var(--smooth-gray-cl);
+    font-size: 19px;
+}
+/* we fouce */
+
+/* What Our Customer Saying */
+.what_out_customer {
+    padding: 2rem;
+    background-color: var(--smooth-light-white-cl);
+}
+.what_out_customer p {
+    font-size: 20px;
+    line-height: 40px;
+}
+/* What Our Customer Saying */
+
+/* Our service */
+.our_services .sm-cards .sm-line .line {
+    height: 4px;
+    width: 80%;
+}
+.our_services .sm-cards .bold-heading {
+    font-weight: 400;
+    font-size: 35px;
+}
+.our_services .sm-cards p {
+    line-height: 35px;
+}
+.our_services .work-inner-div {
+    height: 100%;
+}
+/* Our service */
+
+/* Clueless about when and how to get your car serviced? */
+.clueless {
+    background-color: var(--light-yellow);
+}
+.clueless .bold-heading {
+    color: var(--main-cl);
+}
+.clueless .line {
+    background-color: var(--main-cl);
+}
+.clueless p {
+    color: var(--main-cl);
+}
+.clueless input {
+    width: 100%;
+    height: 60px;
+    padding: 2rem;
+    border: none;
+    outline: none;
+}
+.clueless input[type="checkbox"] {
+    height: 30px;
+    width: 50px;
+}
+.clueless input::placeholder {
+    color: var(--smooth-gray-cl);
+}
+/* Clueless about when and how to get your car serviced? */
+
+/* What Our Customer Saying */
+.what_out_customer .users-info h4 {
+    color: var(--light-yellow);
+}
+.what_out_customer .users-info p {
+    font-size: 15px;
+    color: var(--smooth-gray-cl);
+}
+.what_out_customer p {
+    font-size: 18px;
+    line-height: 40px;
+    color: var(--smooth-gray-cl);
+}
+.what_out_customer .active-bar {
+    margin-top: -80px;
+}
+.slick-track {
+    padding: 100px 0;
+}
+/* What Our Customer Saying */

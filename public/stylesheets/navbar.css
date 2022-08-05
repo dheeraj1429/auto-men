@@ -1,0 +1,18 @@
+.nabvar-main {
+    border-bottom: 3px solid var(--light-yellow);
+}
+
+.nabvar-main img {
+    cursor: pointer;
+}
+
+.top-navbar-div {
+    position: relative;
+}
+
+.log_div {
+    padding: 0 10px;
+    background-color: var(--main-cl);
+    position: absolute;
+    bottom: -34px;
+}

@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: ridley-medium, sans-serif;
+}
+
+:root {
+    --main-cl: #fff;
+    --dark-cl: #000;
+    --smooth-gray-cl: #4e4e4e;
+    --sm-gray: #4e4e4e;
+    --light-yellow: #f9d200;
+    --light-white-cl: #f8f8f8;
+    --smooth-light-white-cl: #f9f9f9;
+}
+
+/* fonts */
+@font-face {
+    font-family: ridley-black;
+    src: url(../fonts/ridley-grotesk-cufonfonts/Ridley\ Grotesk\ Black.otf);
+}
+@font-face {
+    font-family: ridley-medium;
+    src: url(../fonts/ridley-grotesk-cufonfonts/Ridley\ Grotesk\ Medium.otf);
+}
+@font-face {
+    font-family: ridley-bold;
+    src: url(../fonts/ridley-grotesk-cufonfonts/Ridley\ Grotesk\ Bold.otf);
+}
+@font-face {
+    font-family: ridley-regular;
+    src: url(../fonts/ridley-grotesk-cufonfonts/Ridley\ Grotesk\ Regular.otf);
+}
+/* fonts */
+
+/* global classes */
+a {
+    text-decoration: none;
+}
+.side_padding {
+    padding: 0 120px;
+}
+.side_padding_tow {
+    padding: 0 180px;
+}
+.side_padding_three {
+    padding: 0 200px;
+}
+/* global classes */
