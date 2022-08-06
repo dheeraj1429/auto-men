@@ -201,7 +201,70 @@
 .what_out_customer .active-bar {
     margin-top: -80px;
 }
-.slick-track {
+.what_out_customer .slick-track {
     padding: 100px 0;
 }
 /* What Our Customer Saying */
+
+/* select your brand popup */
+.selecte_your_brand {
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    background-color: var(--main-cl);
+    transform: translate(-50%, -50%);
+    position: fixed;
+    z-index: 999;
+    height: 100vh;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.selecte_your_brand_active_tab {
+    visibility: visible;
+    opacity: 1;
+}
+
+.selecte_your_brand .search_div {
+    width: 80%;
+    height: 70px;
+    border: 1px solid #c7c7c7;
+    display: flex;
+}
+.selecte_your_brand .search_div input {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    outline: none;
+    border: none;
+}
+.search_div .icon {
+    width: 80px;
+    display: flex;
+    margin: 1rem 0;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #c7c7c7;
+}
+.selecte_your_brand .cars-div img {
+    width: 200px;
+    height: auto;
+}
+.close-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    transform: scale(0.8);
+}
+.selecte_your_brand p {
+    font-size: 22px;
+}
+.single-item .slick-dots li button {
+    width: 60px !important;
+}
+.selecte_your_brand .slick-dots {
+    bottom: -93px;
+}
+/* select your brand popup */

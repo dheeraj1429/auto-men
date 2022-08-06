@@ -9,6 +9,7 @@
 html,
 body {
     font-family: ridley-medium, sans-serif;
+    position: relative;
 }
 
 :root {
