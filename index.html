@@ -23,9 +23,9 @@
      <link rel="stylesheet" href="./public/stylesheets/index.css">
      <link rel="stylesheet" href="./public/stylesheets/buttons.css">
      <link rel="stylesheet" href="./public/stylesheets/navbar.css">
-     <link rel="stylesheet" href="./public/stylesheets/responsive.css">
      <link rel="stylesheet" href="./public/stylesheets/footer.css">
      <link rel="stylesheet" href="./public/stylesheets/global.css">
+     <link rel="stylesheet" href="./public/stylesheets/responsive.css">
 </head>
 
 <body>
@@ -35,16 +35,17 @@
           <div class="nabvar-main">
                <div class="container-fluid py-3 px-4">
                     <div class="row">
-                         <div class="col-12 col-sm-12 col-md-8 d-flex align-items-center">
+                         <div class="col-2 col-sm-3 col-md-6 col-lg-8 d-flex align-items-center">
                               <img src="./public/svg/ci_menu-alt-03.svg" alt="">
                               <p class="mb-0 ms-3">Menu</p>
                          </div>
-                         <div class="col-12 col-sm-12 col-md-2 text-center top-navbar-div">
+                         <div class="col-5 col-sm-5 col-md-4 col-lg-2 text-center top-navbar-div">
                               <div class="log_div">
                                    <img src="./public/images/Group 133.png" alt="">
                               </div>
                          </div>
-                         <div class="col-12 col-sm-12 col-md-2 text-end side_padding align-items-center d-flex">
+                         <div
+                              class="col-4 col-md-2 col-lg-2 text-end side_padding justify-content-center align-items-center d-flex">
                               <img src="./public/svg/fa_search.svg" alt="">
                          </div>
                     </div>
@@ -56,19 +57,64 @@
      <!-- main -->
      <main>
 
+          <!-- Select Year popup -->
+          <section class="select_year_popup" id="selection_aria">
+               <div class="selected_popup">
+                    <div class="container-fluid">
+                         <div class="row justify-content-center">
+                              <div class="col-12 text-center py-5">
+                                   <h1>Select Year</h1>
+                                   <div class="ling-div sm-line center-line mt-3">
+                                        <div class="line"></div>
+                                   </div>
+
+
+                              </div>
+
+                              <div class="col-12 col-sm-12 col-md-8">
+                                   <div class="select_div">
+                                        <div class="selection_div">
+                                             <p>2000</p>
+                                             <img src="./public/svg/arr.png" alt="">
+                                        </div>
+                                        <div class="options_div">
+                                             <div class="option" id="2000">
+                                                  <p>2000</p>
+                                             </div>
+                                             <div class="option" id="2001">
+                                                  <p>2001</p>
+                                             </div>
+                                             <div class="option" id="2003">
+                                                  <p>2003</p>
+                                             </div>
+                                             <div class="option" id="2004">
+                                                  <p>2004</p>
+                                             </div>
+                                             <div class="option" id="2005">
+                                                  <p>2005</p>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </section>
+          <!-- Select Year popup -->
+
           <!-- select your brand popup -->
-          <section class="selecte_your_brand">
+          <section class="selecte_your_brand p-4">
                <div class="conrainer-fluid ">
                     <div class="row align-items-center">
-                         <div class="col-12 col-sm-12 col-md-4"></div>
-                         <div class="col-12 col-sm-12 col-md-4 text-center py-5">
+                         <div class="col-12 col-sm-12 col-md-12 col-lg-4"></div>
+                         <div class="col-12 col-sm-12 col-md-12 col-lg-4 text-center py-5">
                               <img src="./public/svg/close.svg" class="close-btn" alt="">
                               <h1 class="bold-heading">Select Your Brand</h1>
                               <div class="ling-div sm-line center-line mt-3">
                                    <div class="line"></div>
                               </div>
                          </div>
-                         <div class="col-12 col-sm-12 col-md-4">
+                         <div class="col-12 col-sm-12 col-md-12 col-lg-4 justify-content-center d-flex">
                               <div class="search_div">
                                    <input type="search" placeholder="Search">
                                    <div class="icon">
@@ -81,54 +127,56 @@
 
                     <div class="single-item mt-5">
                          <div class="col-12">
-                              <div class="row cars-div">
-                                   <div class="col-12.col-md-12 col-md-1"></div>
-                                   <div class="col-12 col-sm-12 col-md-2 text-center mt-5">
-                                        <img src="./public/images/car-1.png" class="img-fluid" alt="">
+                              <div class="row cars-div justify-content-center">
+                                   <div class=" col-12 col-md-12 col-md-1 col-xl-1"></div>
+                                   <div
+                                        class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-2 text-center mt-5 text-center">
+                                        <img src=" ./public/images/car-1.png" class="img-fluid" alt="">
                                         <p class="mt-4">BMW X5 Specs </p>
                                    </div>
-                                   <div class="col-12 col-sm-12 col-md-2 text-center mt-5">
+                                   <div
+                                        class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-2 text-center mt-5 text-center">
                                         <img src="./public/images/car-2.png" class="img-fluid" alt="">
                                         <p class="mt-4">BMW X5 Specs </p>
                                    </div>
-                                   <div class="col-12 col-sm-12 col-md-2 text-center mt-5">
+                                   <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-2 text-center mt-5">
                                         <img src="./public/images/car-3.png" class="img-fluid" alt="">
                                         <p class="mt-4">BMW X5 Specs </p>
                                    </div>
-                                   <div class="col-12 col-sm-12 col-md-2 text-center mt-5">
+                                   <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-2 text-center mt-5">
                                         <img src="./public/images/car-4.png" class="img-fluid" alt="">
                                         <p class="mt-4">BMW X5 Specs </p>
                                    </div>
-                                   <div class="col-12 col-sm-12 col-md-2 text-center mt-5">
+                                   <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-2 text-center mt-5">
                                         <img src="./public/images/car-5.png" class="img-fluid" alt="">
                                         <p class="mt-4">BMW X5 Specs </p>
                                    </div>
 
-                                   <div class="col-12.col-md-12 col-md-1"></div>
+                                   <!-- <div class="col-12 col-md-12 col-md-0 col-lg-1"></div> -->
 
-                                   <div class="col-12.col-md-12 col-md-1"></div>
-                                   <div class="col-12 col-sm-12 col-md-2 text-center mt-5">
+                                   <div class="col-12.col-md-12 col-md-1 space_div"></div>
+                                   <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-2 text-center mt-5">
                                         <img src="./public/images/car-6.png" class="img-fluid" alt="">
                                         <p class="mt-4">BMW X5 Specs </p>
                                    </div>
-                                   <div class="col-12 col-sm-12 col-md-2 text-center mt-5">
+                                   <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-2 text-center mt-5">
                                         <img src="./public/images/car-7.png" class="img-fluid" alt="">
                                         <p class="mt-4">BMW X5 Specs </p>
                                    </div>
-                                   <div class="col-12 col-sm-12 col-md-2 text-center mt-5">
+                                   <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-2 text-center mt-5">
                                         <img src="./public/images/car-8.png" class="img-fluid" alt="">
                                         <p class="mt-4">BMW X5 Specs </p>
                                    </div>
-                                   <div class="col-12 col-sm-12 col-md-2 text-center mt-5">
+                                   <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-2 text-center mt-5">
                                         <img src="./public/images/car-9.png" class="img-fluid" alt="">
                                         <p class="mt-4">BMW X5 Specs </p>
                                    </div>
-                                   <div class="col-12 col-sm-12 col-md-2 text-center mt-5">
+                                   <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-2 text-center mt-5">
                                         <img src="./public/images/car-10.png" class="img-fluid" alt="">
                                         <p class="mt-4">BMW X5 Specs </p>
                                    </div>
 
-                                   <div class="col-12.col-md-12 col-md-1"></div>
+                                   <!-- <div class="col-12 col-md-12 col-md-1 col-xl-1"></div> -->
 
                               </div>
                          </div>
@@ -195,10 +243,10 @@
           <section class="banner-section">
                <div class="container-fluid side_padding">
                     <div class="row align-items-center">
-                         <div class="col-12 col-sm-12 col-md-7">
+                         <div class="col-12 col-sm-12 col-md-12 col-lg-7 mb-5 mb-md-0">
                               <img src="./public/images/Group 132.png" class="img-fluid" alt="">
                          </div>
-                         <div class="col-12 col-sm-12 col-md-5 text-end">
+                         <div class="col-12 col-sm-12 col-md-12 col-lg-5 text-center text-md-end">
                               <h1>Your Car Your Time <span>Your Place</span></h1>
                               <div class="ling-div">
                                    <div class="line"></div>
@@ -217,7 +265,7 @@
           <section class="brand">
                <div class="container-fluid side_padding">
                     <div class="row">
-                         <div class="col-12 text-center py-5">
+                         <div class="col-12 text-center py-2 py-sm-3 py-md-5">
                               <h1>Select Your Brand</h1>
                               <div class="ling-div sm-line center-line mt-3">
                                    <div class="line"></div>
@@ -226,7 +274,7 @@
                     </div>
 
                     <div class="row mt-4 mb-4">
-                         <div class="col-12 col-sm-12 col-md-1">
+                         <div class="col-12 col-sm-12 col-md-3 col-xl-3 col-xxl-1">
                               <div class="brand-icons text-center">
                                    <div class="img-cover_div">
                                         <img src="./public/images/image 1.png" alt="">
@@ -234,7 +282,7 @@
                                    <h5 class="mt-5">BMW</h5>
                               </div>
                          </div>
-                         <div class="col-12 col-sm-12 col-md-2">
+                         <div class="col-12 col-sm-12 col-md-3 col-xl-3 col-xxl-2">
                               <div class="brand-icons text-center">
                                    <div class="img-cover_div">
                                         <img src="./public/images/image 2.png" alt="">
@@ -242,7 +290,7 @@
                                    <h5 class="mt-5">BMW</h5>
                               </div>
                          </div>
-                         <div class="col-12 col-sm-12 col-md-1">
+                         <div class="col-12 col-sm-12 col-md-3 col-xl-3 col-xxl-1">
                               <div class="brand-icons text-center">
                                    <div class="img-cover_div">
                                         <img src="./public/images/image 3.png" alt="">
@@ -250,7 +298,7 @@
                                    <h5 class="mt-5">WV</h5>
                               </div>
                          </div>
-                         <div class="col-12 col-sm-12 col-md-2">
+                         <div class="col-12 col-sm-12 col-md-3 col-xl-3 col-xxl-2">
                               <div class="brand-icons text-center">
                                    <div class="img-cover_div">
                                         <img src="./public/images/image 4.png" alt="">
@@ -258,7 +306,7 @@
                                    <h5 class="mt-5">JAGUAR</h5>
                               </div>
                          </div>
-                         <div class="col-12 col-sm-12 col-md-2">
+                         <div class="col-12 col-sm-12 col-md-4 col-xl-4 col-xxl-2">
                               <div class="brand-icons text-center">
                                    <div class="img-cover_div">
                                         <img src="./public/images/image 5.png" alt="">
@@ -266,7 +314,7 @@
                                    <h5 class="mt-5">MERCEDES</h5>
                               </div>
                          </div>
-                         <div class="col-12 col-sm-12 col-md-2">
+                         <div class="col-12 col-sm-12 col-md-4 col-xl-4 col-xxl-2">
                               <div class="brand-icons text-center">
                                    <div class="img-cover_div">
                                         <img src="./public/images/image 6.png" alt="">
@@ -274,7 +322,7 @@
                                    <h5 class="mt-5">PORSCHE</h5>
                               </div>
                          </div>
-                         <div class="col-12 col-sm-12 col-md-2">
+                         <div class="col-12 col-sm-12 col-md-4 col-xl-4 col-xxl-2">
                               <div class="brand-icons text-center">
                                    <div class="img-cover_div">
                                         <img src="./public/images/image 7.png" alt="">
@@ -288,10 +336,10 @@
           <!-- brand section -->
 
           <!-- How does it work? -->
-          <section class="how-it-works py-5">
+          <section class="how-it-works py-2 py-md-5">
                <div class="container-fluid side_padding">
                     <div class="row">
-                         <div class="col-12 text-center py-5">
+                         <div class="col-12 text-center py-2 py-md-5">
                               <h1 class="bold-heading">How does it work?</h1>
                               <div class="ling-div sm-line center-line mt-3">
                                    <div class="line"></div>
@@ -300,7 +348,7 @@
                     </div>
 
                     <div class="row mt-5">
-                         <div class="col-12 col-sm-12 col-md-3">
+                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
                               <div class="work-inner-div text-center">
                                    <div>
                                         <div class="icon">
@@ -310,7 +358,7 @@
                                    </div>
                               </div>
                          </div>
-                         <div class="col-12 col-sm-12 col-md-3">
+                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 mt-4 mt-lg-0">
                               <div class="work-inner-div text-center active-tab">
                                    <div>
                                         <div class="icon icon-active">
@@ -320,7 +368,7 @@
                                    </div>
                               </div>
                          </div>
-                         <div class="col-12 col-sm-12 col-md-3">
+                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 mt-4 mt-xxl-0">
                               <div class="work-inner-div text-center">
                                    <div>
                                         <div class="icon">
@@ -330,7 +378,7 @@
                                    </div>
                               </div>
                          </div>
-                         <div class="col-12 col-sm-12 col-md-3">
+                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 mt-4 mt-xxl-0">
                               <div class="work-inner-div text-center">
                                    <div>
                                         <div class="icon">
@@ -349,7 +397,7 @@
           <section class="we_fouce py-5">
                <div class="container-fluid side_padding">
                     <div class="row">
-                         <div class="col-12 text-center py-5">
+                         <div class="col-12 text-center  py-2 pt-md-5">
                               <h1 class="bold-heading">We focus on areas that you value<br /> the most – time, cost
                                    andpeace of <br /> mind
                               </h1>
@@ -364,9 +412,9 @@
                     </div>
 
                     <div class="row pb-5">
-                         <div class="col-12 col-sm-12 col-md-4 d-flex justify-content-center">
+                         <div class="col-12 col-sm-12 col-md-4 d-flex justify-content-center text-center text-md-start">
                               <div>
-                                   <h5 class="heading">Convenient</h5>
+                                   <h5 class=" heading">Convenient</h5>
                                    <div class="ling-div line-right mt-3">
                                         <div class="line"></div>
                                    </div>
@@ -388,13 +436,12 @@
                                    </ul>
                               </div>
                          </div>
-                         <div class="col-12 col-sm-12 col-md-4 d-flex justify-content-center">
+                         <div class="col-12 col-sm-12 col-md-4 d-flex justify-content-center mt-4 mt-lg-0">
                               <div>
                                    <h5 class="heading">Hassle-Free</h5>
                                    <div class="ling-div line-right mt-3">
                                         <div class="line"></div>
                                    </div>
-
                                    <ul class="mt-4">
                                         <li>
                                              <a href="">No Hidden Charges</a>
@@ -412,7 +459,8 @@
                                    </ul>
                               </div>
                          </div>
-                         <div class="col-12 col-sm-12 col-md-4 d-flex justify-content-center">
+                         <div
+                              class="col-12 col-sm-12 col-md-4 d-flex justify-content-center text-center text-md-start mt-4 mt-lg-0">
                               <div>
                                    <h5 class="heading">Assurance</h5>
                                    <div class="ling-div line-right mt-3">
@@ -451,7 +499,7 @@
           <section class="what_out_customer py-5">
                <div class="container-fludi side_padding">
                     <div class="row">
-                         <div class="col-12 text-center py-5">
+                         <div class="col-12 text-center py-2 py-md-5">
                               <h1 class="bold-heading">What Our Customer Saying</h1>
                               <div class="ling-div sm-line center-line mt-3">
                                    <div class="line"></div>
@@ -486,8 +534,8 @@
                               </div>+
                          </div>
                          <div class="col-12 col-sm-12 col-md-4 text-center d-flex justify-content-center">
-                              <div class="active-bar">
-                                   <img src="./public/images/users-3.png" class="img-fluid d-block m-auto" alt="">
+                              <div class="">
+                                   <img src="./public/images/users.png" class="img-fluid d-block m-auto" alt="">
                                    <div class="d-flex align-items-center users-info mt-4 justify-content-center">
                                         <h4 class="mb-0">Brooklyn Simmons</h4>
                                         <p class="mb-0 ms-4">Drives a Suzuki</p>
@@ -567,19 +615,17 @@
                     </div>
 
                     <div class="row side_padding">
-                         <div class="col-12 col-sm-12 col-md-3">
+                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3">
                               <input type="text" name="" id="" placeholder="Your Name">
-
-
                          </div>
-                         <div class="col-12 col-sm-12 col-md-3">
+                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 mt-4 mt-md-0">
                               <input type="text" name="" id="" placeholder="Vehicle Make & Model">
 
                          </div>
-                         <div class="col-12 col-sm-12 col-md-3">
+                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 mt-4 mt-xl-0 col-xxl-3">
                               <input type="number" name="" id="" placeholder="Your Number">
                          </div>
-                         <div class="col-12 col-sm-12 col-md-3">
+                         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 mt-4 mt-xl-0 col-xxl-3">
                               <input type="email" name="" id="" placeholder="Your Email">
                          </div>
                     </div>
@@ -591,13 +637,13 @@
                                    <p class="mb-0">Check box to prove you are human</p>
                               </div>
                          </div>
-                         <div class="col-12 col-sm-12 col-md-5">
+                         <div class="col-12 col-sm-12 col-md-5 mt-4 mt-md-0">
                               <div class="checkbox d-flex align-items-center">
                                    <input type="checkbox">
                                    <p class="mb-0">Subscribe for tips to pamper your car</p>
                               </div>
                          </div>
-                         <div class="col-12 col-sm-12 col-md-3">
+                         <div class="col-12 col-sm-12 col-md-3 mt-4 mt-md-0">
                               <button class="request_button">Request a call book</button>
                          </div>
                     </div>
@@ -622,8 +668,8 @@
                          </div>
                     </div>
 
-                    <div class="row mt-4 mb-5 sm-cards">
-                         <div class="col-12 col-sm-12 col-md-4">
+                    <div class="row mt-4 mb-5 sm-cards justify-content-center">
+                         <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-4">
                               <div class="work-inner-div text-center">
                                    <div>
                                         <div class="icon">
@@ -638,7 +684,7 @@
                                    </div>
                               </div>
                          </div>
-                         <div class="col-12 col-sm-12 col-md-4">
+                         <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-4 mt-4 mt-xl-0">
                               <div class="work-inner-div text-center">
                                    <div>
                                         <div class="icon">
@@ -654,7 +700,7 @@
                                    </div>
                               </div>
                          </div>
-                         <div class="col-12 col-sm-12 col-md-4">
+                         <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-4 mt-4 mt-xl-0">
                               <div class="work-inner-div text-center">
                                    <div>
                                         <div class="icon">
@@ -695,21 +741,26 @@
                               </p>
                          </div>
                     </div>
-                    <div class="row py-3 pb-5">
+                    <div class="row py-3 py-md-5">
                          <div class="col-12 col-sm-12 col-md-1"></div>
-                         <div class="col-12 col-sm-12 col-md-2">
+                         <div
+                              class="col-12 col-sm-12 col-md-2 d-flex justify-content-center align-items-center mb-2 mb-md-0">
                               <img src="./public/images/1.png" class="img-fluid" alt="">
                          </div>
-                         <div class="col-12 col-sm-12 col-md-2">
+                         <div
+                              class="col-12 col-sm-12 col-md-2 d-flex justify-content-center align-items-center mt-5  mt-md-0 mb-2 mb-md-0">
                               <img src="./public/images/2.png" class="img-fluid" alt="">
                          </div>
-                         <div class="col-12 col-sm-12 col-md-2">
+                         <div
+                              class="col-12 col-sm-12 col-md-2 d-flex justify-content-center align-items-center mt-5  mt-md-0 mb-2 mb-md-0">
                               <img src="./public/images/3.png" class="img-fluid" alt="">
                          </div>
-                         <div class="col-12 col-sm-12 col-md-2">
+                         <div
+                              class="col-12 col-sm-12 col-md-2 d-flex justify-content-center align-items-center mt-5  mt-md-0">
                               <img src="./public/images/4.png" class="img-fluid" alt="">
                          </div>
-                         <div class="col-12 col-sm-12 col-md-2">
+                         <div
+                              class="col-12 col-sm-12 col-md-2 d-flex justify-content-center align-items-center mt-4  mt-md-0">
                               <img src="./public/images/5.png" class="img-fluid" alt="">
                          </div>
                          <div class="col-12 col-sm-12 col-md-1"></div>
@@ -725,10 +776,11 @@
      <footer class="pt-5">
           <div class="conrainer-fluid side_padding">
                <div class="row align-items-center">
-                    <div class="col-12 col-sm-12 col-md-3">
+                    <div
+                         class="col-12 col-sm-12 col-md-12 col-lg-12 col-xxl-3 mb-3 mb-xxl-0 text-center text-xxl-start">
                          <h1 class="footer-heading">Join Our Newsletter Now!</h1>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xxl-6 mb-4 mb-lg-0">
                          <div class="email-div">
                               <div class="mail-icon">
                                    <img src="./public/images/mail.png" alt="">
@@ -737,7 +789,8 @@
                               <button class="submit_button me-2">Submit</button>
                          </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-3 d-flex align-items-center justify-content-center ">
+                    <div
+                         class="col-12 col-sm-12 col-md-12 col-lg-4 col-xxl-3 d-flex align-items-center justify-content-center ">
                          <div class="footer-icon-div">
                               <i class="fab fa-facebook-f"></i>
                          </div>
@@ -748,19 +801,19 @@
                               <i class="fab fa-google-plus-g"></i>
                          </div>
                     </div>
-
                     <hr class="mt-5">
                </div>
 
                <div class="row mt-5">
-                    <div class="col-12 col-sm-12 col-md-4 pe-5">
+                    <div
+                         class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-4 pe-0 pe-md-5 mb-5 mb-xxl-0 text-center text-md-start">
                          <img src="./public/images/Group 133.png" alt="">
                          <p class="mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                               Lorem Ipsum has
                               been the industry's standard dummy text ever since the 1500s,</p>
-                         <img src="./public/images/payment.png" alt="" class="mt-4">
+                         <img src="./public/images/payment.png" alt="" class="mt-4 img-fluid">
                     </div>
-                    <div class="col-12 col-sm-12 col-md-2 we_fouce">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xxl-2 we_fouce text-center text-md-start">
                          <div>
                               <h5 class="heading">About Us</h5>
                               <div class="ling-div line-right mt-3">
@@ -790,10 +843,10 @@
                               </ul>
                          </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-2 we_fouce">
-                         <div class="pt-5">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xxl-2 we_fouce text-center text-md-start">
+                         <div class="pt-0 pt-md-5">
 
-                              <ul class="mt-5">
+                              <ul class="mt-0 mt-md-5">
                                    <li>
                                         <a href="">JAGUAR</a>
                                    </li>
@@ -816,7 +869,8 @@
                               </ul>
                          </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-4 we_fouce">
+                    <div
+                         class="col-12 col-sm-12 col-md-4 col-lg-4 col-xxl-4 we_fouce text-center text-md-start mt-4 mt-md-0">
                          <div>
                               <h5 class="heading">Contact Us</h5>
                               <div class="ling-div line-right mt-3">
@@ -851,7 +905,35 @@
           $('.multiple-items').slick({
                infinite: true,
                slidesToShow: 3,
-               slidesToScroll: 3
+               slidesToScroll: 3,
+               responsive: [
+                    {
+                         breakpoint: 1024,
+                         settings: {
+                              slidesToShow: 1,
+                              slidesToScroll: 1,
+                              infinite: true,
+                              dots: true
+                         }
+                    },
+                    {
+                         breakpoint: 600,
+                         settings: {
+                              slidesToShow: 1,
+                              slidesToScroll: 1
+                         }
+                    },
+                    {
+                         breakpoint: 480,
+                         settings: {
+                              slidesToShow: 1,
+                              slidesToScroll: 1
+                         }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+               ]
           });
           $('.single-item').slick({
                dots: true

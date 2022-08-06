@@ -1,0 +1,158 @@
+@media (max-width: 1700px) {
+    .banner-section h1 {
+        font-size: 54px;
+    }
+    .work-inner-div p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 33px;
+    }
+    .our_services .sm-cards .bold-heading {
+        font-size: 23px;
+    }
+    footer .footer-heading {
+        font-size: 25px;
+    }
+    footer p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .banner-section h1 {
+        font-size: 42px;
+        line-height: normal;
+    }
+    .we_fouce ul li a {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .email-div {
+        width: 100%;
+    }
+    .we_fouce p {
+        font-size: 15px;
+        line-height: normal;
+    }
+    .we_fouce .heading {
+        font-size: 28px;
+    }
+    .what_out_customer .users-info h4 {
+        font-size: 18px;
+    }
+    .what_out_customer p {
+        font-size: 13px;
+    }
+    .side_padding {
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .work-inner-div p {
+        font-size: 18px;
+        line-height: normal;
+    }
+    .banner-section h1 {
+        font-size: 33px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .space_div {
+        display: none;
+    }
+}
+
+@media (max-width: 1100px) {
+    footer .heading {
+        font-size: 23px !important;
+    }
+    .side_padding {
+        padding: 0 50px;
+    }
+    .request_button {
+        padding: 1rem;
+        font-size: 13px;
+    }
+    .our_services .sm-cards p {
+        line-height: 29px;
+    }
+    .work-inner-div p {
+        font-size: 15px;
+    }
+    .our_services .sm-cards .bold-heading {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 750px) {
+    .ling-div {
+        display: flex;
+        justify-content: center;
+    }
+    .banner-section h1 {
+        font-size: 24px;
+    }
+    .work-inner-div p {
+        font-size: 19px;
+    }
+    .bold-heading {
+        font-size: 25px;
+    }
+    .bold-heading br {
+        display: none;
+    }
+    .we_fouce ul li {
+        list-style: none;
+    }
+    .we_fouce ul {
+        padding: 0;
+        text-align: center;
+    }
+    .our_services .sm-cards p {
+        list-style: none;
+        font-size: 15px;
+    }
+    .select_year_popup .selected_popup {
+        width: 387px;
+    }
+}
+
+@media (max-width: 600px) {
+    .banner-section p {
+        font-size: 14px;
+        line-height: normal;
+    }
+    .banner-section {
+        padding: 36px 0;
+    }
+    .brand h1 {
+        font-size: 23px;
+    }
+    .bold-heading {
+        font-size: 20px;
+    }
+    .we_fouce .heading {
+        font-size: 21px;
+        text-align: center;
+    }
+    .what_out_customer .slick-track {
+        padding: 27px 0;
+    }
+    .side_padding {
+        padding: 0 10px;
+    }
+    .select_year_popup .selected_popup {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .log_div {
+        margin-left: -22px;
+    }
+}
