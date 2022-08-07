@@ -374,9 +374,15 @@
     background-color: var(--smooth-white-cl);
     height: 100%;
 }
-.filter-cars-cards .filter-cars-image-div {
+/* .filter-cars-cards .filter-cars-image-div {
     width: 100%;
     height: 230px;
+} */
+
+.filter-cars-cards .filter-cars-image-div img {
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .filter_selected_cars .search_div {
     width: 80%;
