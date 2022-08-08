@@ -1,0 +1,36 @@
+/* banner section */
+.about-banner {
+    height: 900px;
+    width: 100%;
+    background-image: url(../images/about-banner.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.about-banner h1 {
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 90px;
+    color: var(--main-cl);
+}
+.about-banner h1 span {
+    color: var(--light-yellow);
+}
+.about-banner .line {
+    float: left;
+}
+/* banner section */
+
+/* the journey */
+.the_journey p {
+    font-size: 20px;
+    line-height: 50px;
+    color: var(--smooth-gray-cl);
+}
+/* the journey */
+
+.about-data p {
+    font-size: 20px;
+    line-height: 40px;
+}
