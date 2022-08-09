@@ -1,0 +1,46 @@
+/* banner section */
+.service_banner {
+    background-image: url(../images/service.png);
+}
+/* banner section */
+
+/* we believe */
+.we_believe h5 {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 60px;
+}
+.left-line {
+    height: 20px;
+    max-width: none;
+}
+.left-line .line {
+    height: 8px;
+    float: left;
+}
+.we_believe p {
+    font-size: 20px;
+    line-height: 50px;
+}
+/* we believe */
+
+/* Car Repair and Services */
+.service-car-div {
+    background: #ffffff;
+    border: 1px solid #efefef;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.02);
+    border-radius: 10px;
+    padding: 2rem;
+    height: 100%;
+}
+.service-car-div h5 {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+}
+.service-car-div p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+}
+/* Car Repair and Services */
