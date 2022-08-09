@@ -33,7 +33,7 @@ footer .footer-heading {
     align-items: center;
     justify-content: center;
 }
-footer .footer-icon-div {
+.footer-icon-div {
     width: 60px;
     height: 60px;
     display: flex;
@@ -43,7 +43,7 @@ footer .footer-icon-div {
     border-radius: 50%;
     background-color: var(--main-cl);
 }
-footer .footer-icon-div i {
+.footer-icon-div i {
     font-size: 20px;
     color: var(--light-yellow);
 }

@@ -30,3 +30,12 @@
     border: 1px solid var(--smooth-gray-cl);
     background-color: transparent;
 }
+.content-button {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--light-yellow);
+    margin-top: 1rem;
+    color: var(--main-cl);
+    border: none;
+    outline: none;
+}
