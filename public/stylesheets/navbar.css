@@ -22,3 +22,70 @@
     box-shadow: 0px 0px 64px rgba(0, 0, 0, 0.09);
     border-radius: 4px;
 }
+
+/* sidebar nav */
+.sidebar_full_width_nav {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.514);
+    transition: all 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+}
+.sidebar_full_width_nav_active {
+    opacity: 1;
+    visibility: visible;
+}
+.sidebar_nav {
+    width: 300px;
+    height: 100%;
+    background-color: var(--main-cl);
+    transition: all 0.3s ease;
+    padding: 2rem 1rem;
+    transition: all 0.3s ease;
+    margin-left: -300px;
+}
+.sidebar_nav_active {
+    margin-left: 0px;
+}
+.navbar_inner_cards {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.navbar_inner_cards a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navbar_inner_cards p,
+.navbar_inner_cards i {
+    color: var(--dark-cl);
+}
+
+.navbar_inner_cards_active {
+    background-color: rgb(28, 87, 196);
+}
+
+.navbar_inner_cards_active i {
+    color: var(--main-cl);
+}
+
+.navbar_inner_cards_active p {
+    color: var(--main-cl);
+}
+
+.navbar_inner_cards p {
+    margin: 0;
+    margin-left: 1rem;
+}
+
+/* sidebar nav */

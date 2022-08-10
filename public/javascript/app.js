@@ -10,19 +10,26 @@ const selectYourPopupDiv = document.querySelector(".select_year_popup");
 const carsDivELms = document.querySelectorAll(".cars-div");
 const filterCarsDiv = document.querySelector(".filter_selected_cars");
 const filterCarsClosebtn = document.querySelector(".filter_cars_close_btn");
+const sidebarFullELem = document.querySelector(".sidebar_full_width_nav");
+const sidebarNav = document.querySelector(".sidebar_nav");
+const navbarIcon = document.querySelector(".navbar-icon");
 
-brandIcons.forEach((el) => {
-    el.style.cursor = "pointer";
-    el.addEventListener("click", function () {
-        selectYourBrand.classList.add("selecte_your_brand_active_tab");
-        document.body.style.overflow = "hidden";
+if (brandIcons) {
+    brandIcons.forEach((el) => {
+        el.style.cursor = "pointer";
+        el.addEventListener("click", function () {
+            selectYourBrand.classList.add("selecte_your_brand_active_tab");
+            document.body.style.overflow = "hidden";
+        });
     });
-});
+}
 
-selectedYourBandClosePopup.addEventListener("click", function () {
-    selectYourBrand.classList.remove("selecte_your_brand_active_tab");
-    document.body.style.overflow = "scroll";
-});
+if (selectedYourBandClosePopup) {
+    selectedYourBandClosePopup.addEventListener("click", function () {
+        selectYourBrand.classList.remove("selecte_your_brand_active_tab");
+        document.body.style.overflow = "scroll";
+    });
+}
 
 const showOptionPopup = function () {
     optionsDivElem.classList.toggle("options_div_active");
@@ -69,6 +76,27 @@ const closeFilterModelWindow = function () {
     removeExistsClass();
 };
 
-optionsSelectDiv.addEventListener("click", showOptionPopup);
-selectYourPopupDiv.addEventListener("click", showAndHideWindow);
-filterCarsClosebtn.addEventListener("click", closeFilterModelWindow);
+const showSidebarNavbar = function () {
+    sidebarFullELem.classList.add("sidebar_full_width_nav_active");
+    sidebarNav.classList.add("sidebar_nav_active");
+};
+
+sidebarFullELem.addEventListener("click", function (elem) {
+    if (elem.target.classList.contains("sidebar_full_width_nav")) {
+        sidebarFullELem.classList.remove("sidebar_full_width_nav_active");
+        sidebarNav.classList.remove("sidebar_nav_active");
+    }
+});
+
+if (optionsSelectDiv) {
+    optionsSelectDiv.addEventListener("click", showOptionPopup);
+}
+if (selectYourPopupDiv) {
+    selectYourPopupDiv.addEventListener("click", showAndHideWindow);
+}
+if (filterCarsClosebtn) {
+    filterCarsClosebtn.addEventListener("click", closeFilterModelWindow);
+}
+if (navbarIcon) {
+    navbarIcon.addEventListener("click", showSidebarNavbar);
+}
