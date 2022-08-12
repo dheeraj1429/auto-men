@@ -72,7 +72,7 @@
 }
 
 .navbar_inner_cards_active {
-    background-color: rgb(28, 87, 196);
+    background-color: var(--light-yellow);
 }
 
 .navbar_inner_cards_active i {

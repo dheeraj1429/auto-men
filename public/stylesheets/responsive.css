@@ -198,6 +198,10 @@
     .about-banner h1 {
         font-size: 28px;
     }
+    .users-info {
+        display: grid !important;
+        place-content: center !important;
+    }
 }
 
 @media (max-width: 400px) {
