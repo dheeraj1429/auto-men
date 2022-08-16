@@ -190,7 +190,8 @@
         padding: 0 10px;
     }
     .select_year_popup .selected_popup {
-        width: 100%;
+        width: 96%;
+        padding: 1rem;
     }
     .about-banner {
         height: 284px;
@@ -202,6 +203,17 @@
         display: grid !important;
         place-content: center !important;
     }
+    .car-selecte-div {
+        padding: 3rem;
+        max-width: 70%;
+        margin: auto;
+        box-shadow: 0 0 10px 2px #e1e1e1;
+        border-radius: 8px;
+    }
+
+    .select_year_popup {
+        align-items: stretch;
+    }
 }
 
 @media (max-width: 400px) {
@@ -209,5 +221,9 @@
         margin-left: -10px;
         position: relative;
         bottom: 0;
+    }
+    .car-selecte-div {
+        padding: 3rem;
+        max-width: 90%;
     }
 }
