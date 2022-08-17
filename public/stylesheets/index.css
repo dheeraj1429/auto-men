@@ -70,8 +70,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.2s ease;
 }
-
+.work-inner-div:hover {
+    background-color: var(--light-yellow);
+}
+.work-inner-div:hover p {
+    color: var(--main-cl);
+}
+.work-inner-div:hover h1 {
+    color: var(--main-cl);
+}
 .work-inner-div .icon {
     width: 150px;
     height: 150px;

@@ -47,7 +47,7 @@
         font-size: 18px;
     }
     .what_out_customer p {
-        font-size: 13px;
+        font-size: 16px;
     }
     .side_padding {
         padding: 0 40px;
@@ -213,6 +213,30 @@
 
     .select_year_popup {
         align-items: stretch;
+    }
+    .submit_button {
+        padding: 1rem 1.5rem;
+    }
+    .work-inner-div p {
+        font-size: 17px;
+    }
+    .bold-heading {
+        font-size: 16px;
+    }
+    .clueless p {
+        font-size: 15px;
+    }
+    .our_services .sm-cards p {
+        font-size: 13px;
+    }
+    footer .footer-heading {
+        font-size: 21px;
+    }
+    .we_fouce ul li a {
+        font-size: 13px;
+    }
+    .we_fouce p {
+        font-size: 12px;
     }
 }
 
