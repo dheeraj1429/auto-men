@@ -204,8 +204,8 @@
         place-content: center !important;
     }
     .car-selecte-div {
-        padding: 3rem;
-        max-width: 70%;
+        padding: 1rem;
+        max-width: 100%;
         margin: auto;
         box-shadow: 0 0 10px 2px #e1e1e1;
         border-radius: 8px;
@@ -238,6 +238,9 @@
     .we_fouce p {
         font-size: 12px;
     }
+    .selecte_your_brand p {
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -247,7 +250,7 @@
         bottom: 0;
     }
     .car-selecte-div {
-        padding: 3rem;
-        max-width: 90%;
+        padding: 0.5rem;
+        max-width: 100%;
     }
 }
