@@ -13,6 +13,9 @@ const filterCarsClosebtn = document.querySelector(".filter_cars_close_btn");
 const sidebarFullELem = document.querySelector(".sidebar_full_width_nav");
 const sidebarNav = document.querySelector(".sidebar_nav");
 const navbarIcon = document.querySelector(".navbar-icon");
+const closeIconsElm = document.querySelector(".cl");
+const selecteYourBrand = document.querySelector(".selecte_your_brand_icons");
+const knowMoreBtn = document.querySelector(".know-more-button");
 
 if (brandIcons) {
     brandIcons.forEach((el) => {
@@ -99,4 +102,16 @@ if (filterCarsClosebtn) {
 }
 if (navbarIcon) {
     navbarIcon.addEventListener("click", showSidebarNavbar);
+}
+
+if (closeIconsElm) {
+    closeIconsElm.addEventListener("click", function () {
+        selecteYourBrand.classList.remove("selecte_your_brand_icons_active");
+    });
+}
+
+if (knowMoreBtn) {
+    knowMoreBtn.addEventListener("click", function () {
+        selecteYourBrand.classList.add("selecte_your_brand_icons_active");
+    });
 }

@@ -59,33 +59,26 @@
     cursor: pointer;
     margin-bottom: 1rem;
 }
-
 .navbar_inner_cards a {
     display: flex;
     align-items: center;
     text-decoration: none;
 }
-
 .navbar_inner_cards p,
 .navbar_inner_cards i {
     color: var(--dark-cl);
 }
-
 .navbar_inner_cards_active {
     background-color: var(--light-yellow);
 }
-
 .navbar_inner_cards_active i {
     color: var(--main-cl);
 }
-
 .navbar_inner_cards_active p {
     color: var(--main-cl);
 }
-
 .navbar_inner_cards p {
     margin: 0;
     margin-left: 1rem;
 }
-
 /* sidebar nav */

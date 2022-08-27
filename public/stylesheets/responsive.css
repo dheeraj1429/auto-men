@@ -129,7 +129,7 @@
     }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 764px) {
     .ling-div {
         display: flex;
         justify-content: center;
@@ -162,6 +162,50 @@
     }
     .contact_inner_div h4 {
         font-size: 22px;
+    }
+    footer .we_fouce ul li {
+        text-align: start !important;
+    }
+    footer .ling-div {
+        justify-content: start !important;
+    }
+    footer .we_fouce .heading {
+        text-align: start !important;
+        margin-top: 1rem;
+    }
+    footer .we_fouce p {
+        text-align: start !important;
+    }
+    .work-inner-div .icon {
+        width: 100px;
+        height: 100px;
+    }
+    .work-inner-div .icon img {
+        transform: scale(0.8);
+    }
+    .work-inner-div {
+        padding: 2rem;
+    }
+    .we_believe h5 {
+        font-size: 15px;
+        line-height: 27px;
+    }
+    .we_believe p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .service-car-div h5 {
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 28px;
+    }
+    .contact_inner_div p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .contact_inner_div .content p {
+        font-size: 13px;
+        line-height: normal;
     }
 }
 
@@ -210,7 +254,6 @@
         box-shadow: 0 0 10px 2px #e1e1e1;
         border-radius: 8px;
     }
-
     .select_year_popup {
         align-items: stretch;
     }
@@ -241,6 +284,37 @@
     .selecte_your_brand p {
         font-size: 15px;
     }
+    .banner-section h1 {
+        font-size: 19px;
+    }
+    .we_fouce ul li {
+        margin: 0.5rem;
+    }
+    .clueless input[type="checkbox"] {
+        height: 17px;
+    }
+    .our_services .sm-cards p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 500px) {
+    .selecte_your_brand .cars-div img {
+        height: auto;
+    }
+    .car-selecte-div {
+        height: 100%;
+    }
+    .footer-icon-div i {
+        font-size: 18px;
+    }
+    .footer-icon-div {
+        width: 50px;
+        height: 50px;
+    }
+    .email-div .mail-icon img {
+        transform: scale(0.9);
+    }
 }
 
 @media (max-width: 400px) {
@@ -252,5 +326,8 @@
     .car-selecte-div {
         padding: 0.5rem;
         max-width: 100%;
+    }
+    .nabvar-main p {
+        display: none;
     }
 }
