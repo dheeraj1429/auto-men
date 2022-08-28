@@ -16,6 +16,7 @@ const navbarIcon = document.querySelector(".navbar-icon");
 const closeIconsElm = document.querySelector(".cl");
 const selecteYourBrand = document.querySelector(".selecte_your_brand_icons");
 const knowMoreBtn = document.querySelector(".know-more-button");
+const yearBtn = document.querySelector(".year_icon");
 
 if (brandIcons) {
     brandIcons.forEach((el) => {
@@ -23,6 +24,7 @@ if (brandIcons) {
         el.addEventListener("click", function () {
             selectYourBrand.classList.add("selecte_your_brand_active_tab");
             document.body.style.overflow = "hidden";
+            selecteYourBrand.classList.remove("selecte_your_brand_icons_active");
         });
     });
 }
@@ -113,5 +115,12 @@ if (closeIconsElm) {
 if (knowMoreBtn) {
     knowMoreBtn.addEventListener("click", function () {
         selecteYourBrand.classList.add("selecte_your_brand_icons_active");
+    });
+}
+
+if (yearBtn) {
+    yearBtn.addEventListener("click", function () {
+        selectYourPopupDiv.classList.remove("select_year_popup_active");
+        document.body.style.overflowY = "scroll";
     });
 }

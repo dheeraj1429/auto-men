@@ -134,11 +134,11 @@
         display: flex;
         justify-content: center;
     }
+    .work-inner-div {
+        height: 100%;
+    }
     .banner-section h1 {
         font-size: 24px;
-    }
-    .work-inner-div p {
-        font-size: 19px;
     }
     .bold-heading {
         font-size: 25px;
@@ -184,7 +184,11 @@
         transform: scale(0.8);
     }
     .work-inner-div {
-        padding: 2rem;
+        padding: 1rem;
+        height: 100%;
+    }
+    .work-inner-div p {
+        font-size: 14px;
     }
     .we_believe h5 {
         font-size: 15px;
@@ -207,12 +211,15 @@
         font-size: 13px;
         line-height: normal;
     }
+    .what_out_customer p {
+        line-height: 25px;
+    }
 }
 
 @media (max-width: 600px) {
     .banner-section p {
-        font-size: 14px;
-        line-height: normal;
+        font-size: 15px;
+        line-height: 24px;
     }
     .banner-section {
         padding: 36px 0;
@@ -261,7 +268,7 @@
         padding: 1rem 1.5rem;
     }
     .work-inner-div p {
-        font-size: 17px;
+        font-size: 14px;
     }
     .bold-heading {
         font-size: 16px;
@@ -279,7 +286,7 @@
         font-size: 13px;
     }
     .we_fouce p {
-        font-size: 12px;
+        font-size: 15px;
     }
     .selecte_your_brand p {
         font-size: 15px;
@@ -294,7 +301,7 @@
         height: 17px;
     }
     .our_services .sm-cards p {
-        font-size: 12px;
+        font-size: 15px;
     }
 }
 
