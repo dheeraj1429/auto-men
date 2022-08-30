@@ -109,12 +109,14 @@ if (navbarIcon) {
 if (closeIconsElm) {
     closeIconsElm.addEventListener("click", function () {
         selecteYourBrand.classList.remove("selecte_your_brand_icons_active");
+        document.body.style.overflowY = "scroll";
     });
 }
 
 if (knowMoreBtn) {
     knowMoreBtn.addEventListener("click", function () {
         selecteYourBrand.classList.add("selecte_your_brand_icons_active");
+        document.body.style.overflow = "hidden";
     });
 }
 
