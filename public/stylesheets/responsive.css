@@ -337,4 +337,10 @@
     .nabvar-main p {
         display: none;
     }
+    .img-cover_div img {
+        transform: scale(0.8);
+    }
+    .brand-icons h5 {
+        font-size: 14px;
+    }
 }
